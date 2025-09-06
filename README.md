@@ -62,29 +62,10 @@ Sistema web sencillo para la gestión de elecciones de personero estudiantil. Pe
 - tarjetones (id, titulo, fecha_eleccion)
 - votos (id, id_estudiante, id_tarjeton, id_candidato, fecha)
 
-## Funcionalidades Adicionales
-- Sistema de auditoría de votos
-- Exportación de resultados en múltiples formatos
-- Dashboard analítico
-- Sistema de respaldo automático
-- Logs detallados de actividades
-- Modo oscuro/claro
-- Multilenguaje (Español/Inglés)
-
-## Aspectos de Seguridad
-- Encriptación de datos sensibles
-- Protección contra ataques de fuerza bruta
-- Sistema de tokens seguros
-- Registro de intentos de acceso
-- Backups automáticos
-- Validación en frontend y backend
+## Aspectos de Seguridad Básicos
+- Autenticación con JWT
+- Encriptación de contraseñas con Bcrypt
+- Validación de formularios
 
 ## Estado del Proyecto
-En desarrollo activo
-
-## Próximas Características
-- Integración con sistemas escolares
-- App móvil
-- Sistema de votación blockchain
-- Módulo de debates en línea
-- Integración con redes sociales
+En desarrollo
