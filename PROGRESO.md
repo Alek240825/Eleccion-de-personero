@@ -37,6 +37,6 @@ Este archivo mantiene un registro cronológico del desarrollo del proyecto. Cada
 - Node.js, NPM y XAMPP instalados
 
 #### Próximos Pasos
-- Instalar extensiones de VS Code
 - Inicializar proyecto React con Vite
 - Configurar Tailwind CSS y shadcn/ui
+- Configurar estructura base del proyecto
