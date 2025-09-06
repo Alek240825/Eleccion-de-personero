@@ -2,7 +2,13 @@ import express from 'express';
 import cors from 'cors';
 import userRoutes from './routes/user.routes.js';
 import authRoutes from './routes/auth.routes.js';
-import voteRoutes from './routes/vote.routes.js';
+import candidateRoutes from './routes/candidate.routes.js';
+import tarjetonRoutes from './routes/tarjeton.routes.js';
+import votoRoutes from './routes/voto.routes.js';
+import dotenv from 'dotenv';
+
+// Cargar variables de entorno
+dotenv.config();
 
 const app = express();
 
@@ -13,7 +19,9 @@ app.use(express.json());
 // Rutas
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
-app.use('/api/votes', voteRoutes);
+app.use('/api/candidates', candidateRoutes);
+app.use('/api/tarjetones', tarjetonRoutes);
+app.use('/api/votos', votoRoutes);
 
 // Manejo de errores básico
 app.use((err, req, res, next) => {

@@ -29,11 +29,11 @@
 2. Desarrollo del backend
    - [x] Configurar estructura básica de Express
    - [x] Establecer estructura de middlewares
-   - [x] Preparar estructura de rutas para:
-     - [ ] Usuarios (registro, login, CRUD)
-     - [ ] Candidatos (CRUD)
-     - [ ] Tarjetones
-     - [ ] Votos
+   - [x] Implementar rutas y controladores para:
+     - [x] Usuarios (registro, login, CRUD)
+     - [x] Candidatos (CRUD)
+     - [x] Tarjetones (gestión y estados)
+     - [x] Votos (registro y estadísticas)
 
 ## Fase 3: Frontend - Vista Pública (3-4 días)
 1. [ ] Configuración de rutas con React Router
