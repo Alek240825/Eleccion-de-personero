@@ -12,20 +12,24 @@
    - [x] Path Intellisense (christian-kohler.path-intellisense)
 
 2. Crear estructura del proyecto
-   - [ ] Inicializar proyecto React con Vite
-   - [ ] Configurar Tailwind CSS y Shadcn/ui
-   - [ ] Crear estructura de carpetas backend
-   - [ ] Inicializar base de datos MySQL
+   - [x] Inicializar proyecto React con Vite
+   - [x] Configurar Tailwind CSS y Shadcn/ui
+   - [x] Crear estructura de carpetas backend
+   - [x] Inicializar base de datos MySQL
 
 ## Fase 2: Base de Datos y Backend (3-4 días)
 1. Configuración de la base de datos
-   - [ ] Crear tablas en MySQL usando Workbench
-   - [ ] Configurar conexión con Express
+   - [x] Crear tablas en MySQL usando Workbench
+     - [x] Tabla de usuarios con roles y documentos
+     - [x] Tabla de tarjetones para procesos electorales
+     - [x] Tabla de candidatos con propuestas
+     - [x] Tabla de votos con restricciones
+   - [x] Configurar estructura inicial de Express
 
 2. Desarrollo del backend
-   - [ ] Configurar Express y middlewares básicos
-   - [ ] Implementar autenticación JWT
-   - [ ] Crear rutas para:
+   - [x] Configurar estructura básica de Express
+   - [x] Establecer estructura de middlewares
+   - [x] Preparar estructura de rutas para:
      - [ ] Usuarios (registro, login, CRUD)
      - [ ] Candidatos (CRUD)
      - [ ] Tarjetones
